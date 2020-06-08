@@ -1,0 +1,84 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="?resource=favicon">
+    <title>BE-FE Lesson 4</title>
+    <link rel="stylesheet" href="befe-lesson4.css">
+    <script type="text/javascript" src="functions.js"></script>
+</head>
+    <body>
+        <div id="page">
+            <header id="pageheader" class="headfoot">
+                <div id="headerleft">
+                    <img src="https://via.placeholder.com/150x150">
+                </div>
+                <div id="headercentre">
+                    <div>
+                        <p>This is a test page for CSS and HTML and Javascript</p>
+                    </div>
+                </div>
+                <div id="headerright">
+                    <div>
+                        <p>Leo Vermeulen</p>
+                    </div>
+                </div>
+            </header>
+            <nav>
+
+            </nav>
+            <div id="pgbody">
+                <form action="befe-lesson3.html" method="post">
+                    <div class="row" id="header">
+                        <div id="header-left">
+                            <div id="title">Book entry</div>
+                            <div id="description">Please add a new book to your library by filling out the fields below</div>
+                        </div>
+                    </div>
+                    <div id="errorfield"></div>
+                    <div class="row" id="header-right">
+                        <button type="reset" id="cancelbtn" class="form-button">Cancel</button>
+                        <button type="submit" id="donebtn" class="form-button">Save</button>
+                    </div>
+                    </div>
+                    <div class="row" id="header">
+                    <div>
+                        <span class="entryformlbl" id="book_title_label" for="book_title">Book title</span>
+                        <input placeholder="title" id="book_title" class="textentry" onfocusout="checkValid('book_title')"></input>
+                    </div>
+                    <div>
+                        <span class="entryformlbl" id="book_author_label"  for="book_author">Author</span>
+                        <input placeholder="author" id="book_author" class="textentry" onfocusout="checkValid('book_author')"></input>
+                    </div>
+                    <div>
+                        <span class="entryformlbl" id="book_isbn_label"  for="book_isbn">ISDN number</span>
+                        <input placeholder="ISBN number" id="book_isbn" class="textentry" onfocusout="checkIsbn()"></input>
+                    </div>
+                    <div>
+                        <span class="entryformlbl" id="book_published_label"  for="book_published">Published year</span>
+                        <input placeholder="published" id="book_published" class="textentry"></input>
+                    </div>                                 
+                </form>
+            </div>
+            <footer id="pagefooter">
+                <div id="footertop">
+                </div>
+                <div id="footerbody">
+                    <div id="footerleft">
+                        <div>
+                            <p>Constructed by Leo Vermeulen</p>
+                            <p>PublicisSapient Ltd.</p>
+                            <p>63 Turnmill</p>
+                            <p>London</p>
+                        </div>
+                    </div>
+                    <div id="footercentre">
+                        <p>This is the footer's centre</p>
+                    </div>
+                    <div id="footerright">
+                        <p>And this is the footer's right</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
