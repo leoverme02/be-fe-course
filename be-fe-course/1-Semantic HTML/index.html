@@ -1,7 +1,17 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-GB">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>BE_FE Course HTML file</title>
 </head>
 <body>
+    <header><strong>
+        <div>
+            <div>
+                <p>This is the header of a test page for HTML not using CSS</p>
+            </div>
+        </div></strong>
+    </header>
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -39,7 +49,8 @@
         </table>
         <h3>Send us a message</h3>
         <form action="homework1.html">
-            <label>Name:</label><input type="text" size=40><br /><br />
+            <label for="name">Name:</label
+                ><input id="name" type="text" size=40><br /><br />
             <label for="custtype">Customer type:</label>
             <select id="custtype">
             <option value="business">Business</option>
@@ -47,9 +58,22 @@
             <option value="commercial">Commercial</option>
             <option value="other">Other</option>
             </select><br /><br />
-            <label for="email">Email:</label><input id="email" type="text" size=40><br /> <br />
-            <label for="message">Message:</label><textarea id="message"  rows="4" cols="40"></textarea><br /><br />
+            <label for="email">Email:</label>
+                <input id="email" type="text" size=40><br /> <br />
+            <label for="message">Message:</label>
+                <textarea id="message"  rows="4" cols="40"></textarea><br /><br />
+
             <input type="reset" value="Reset">&nbsp;&nbsp;<input type="submit" value="Sign up">
         </form>
+        <footer><strong>
+            <div>
+                    <div>
+                        <p>Constructed by Leo Vermeulen</p>
+                        <p>PublicisSapient Ltd.</p>
+                        <p>63 Turnmill</p>
+                        <p>London</p>
+                    </div>
+            </div></strong>
+        </footer>
 </body>
-<html>
+</html>
