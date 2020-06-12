@@ -11,10 +11,14 @@ npm run build
 npm run start
 and then connect a browser to localhost:3000
 
+There are 2 buttons: Show and Input. When the Input form is showing you must first click on the Input button again to dismiss the form before the Show button works. By clicking on a book title in the Show form it gets deleted. The text box was meant to experiment with updating the book's author and dealing with typing input. There is no functionality to save the changes.
+
+
 There are some subjects of the course I simply did not have time to implement or experiment with, mainly Redux and Jest. 
+
 
 As a QA who recently made the switch from manual to automation testing a lot of these technologies are fairly new to me and the learning curve has been very steep. Nevertheless, I have learned a lot, but realise I have a long way to go to become proficient. I am currently taking some courses on Udemy which I find are very benificial.
 
-If there is one comment I can make to improve the course it would be the following: the course introduces all the building blocks that go into creating a modern web application but what I missed was an overview of how these building blocks work together and how one would start designing and building an application from the ground up. To compare it with building a house: I learnt what a brick is and a door frame and roof tiles, but not how to construct a house from them, nor what the house should look like. 
+If there is one comment I can make to improve the course it would be the following: the course introduces all the building blocks that go into creating a modern web application but what I missed was an overview of how these building blocks work together and how one would start designing and building an application from the ground up. To compare it with building a house: I learnt what a brick is and a door frame and roof tiles, but not how to construct a house from them, nor how to draw a plan for what the house should look like. 
 
 Regards, Leo
